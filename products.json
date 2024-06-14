@@ -1,0 +1,125 @@
+[
+  {
+    "id": 4,
+    "name": "Tablet",
+    "brand": "Apple",
+    "model": "iPad Pro",
+    "price_usd": 799,
+    "price_inr": 59272,
+    "specifications": {
+      "display": "11-inch Liquid Retina Display",
+      "processor": "Apple M1 chip",
+      "memory": "8GB RAM, 128GB/256GB/512GB/1TB storage",
+      "camera": "12MP Wide camera",
+      "battery": "Up to 10 hours"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Gaming Console",
+    "brand": "Sony",
+    "model": "PlayStation 5",
+    "price_usd": 499,
+    "price_inr": 37023,
+    "specifications": {
+      "processor": "Custom AMD Zen 2-based CPU",
+      "graphics": "AMD RDNA 2 GPU",
+      "memory": "16GB GDDR6",
+      "storage": "825GB SSD",
+      "maxResolution": "8K"
+    }
+  },
+  {
+    "id": 6,
+    "name": "Headphones",
+    "brand": "Bose",
+    "model": "QuietComfort 35 II",
+    "price_usd": 299,
+    "price_inr": 22214,
+    "specifications": {
+      "type": "Over-Ear",
+      "noiseCancellation": true,
+      "battery": "Up to 20 hours",
+      "connectivity": "Bluetooth, NFC"
+    }
+  },
+  {
+    "id": 7,
+    "name": "Smart Speaker",
+    "brand": "Amazon",
+    "model": "Echo Dot (4th Gen)",
+    "price_usd": 49.99,
+    "price_inr": 3700,
+    "specifications": {
+      "speaker": "1.6-inch front-firing speaker",
+      "connectivity": "Wi-Fi, Bluetooth",
+      "voiceAssistant": "Alexa"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Fitness Tracker",
+    "brand": "Fitbit",
+    "model": "Charge 4",
+    "price_usd": 129.95,
+    "price_inr": 9640,
+    "specifications": {
+      "display": "OLED touchscreen",
+      "sensors": "Heart rate, GPS, Accelerometer",
+      "battery": "Up to 7 days"
+    }
+  },
+  {
+    "id": 9,
+    "name": "Wireless Router",
+    "brand": "TP-Link",
+    "model": "Archer AX6000",
+    "price_usd": 299.99,
+    "price_inr": 22275,
+    "specifications": {
+      "wifiStandard": "802.11ax (Wi-Fi 6)",
+      "speed": "6000 Mbps",
+      "antennas": "8 high-gain external antennas",
+      "ports": "8 Gigabit LAN ports, 2 USB 3.0 ports"
+    }
+  },
+  {
+    "id": 10,
+    "name": "Smart TV",
+    "brand": "Samsung",
+    "model": "QLED Q80A",
+    "price_usd": 1499.99,
+    "price_inr": 111225,
+    "specifications": {
+      "display": "4K UHD QLED",
+      "size": "55-inch",
+      "hdr": "Quantum HDR 12X",
+      "smartFeatures": "Tizen OS, built-in voice assistant"
+    }
+  },
+  {
+    "id": 11,
+    "name": "Digital Camera",
+    "brand": "Canon",
+    "model": "EOS R6",
+    "price_usd": 2499,
+    "price_inr": 185490,
+    "specifications": {
+      "sensor": "20.1MP full-frame CMOS",
+      "iso": "100-102400 (expandable to 50-204800)",
+      "fps": "Up to 12 fps"
+    }
+  },
+  {
+    "id": 12,
+    "name": "Wireless Earbuds",
+    "brand": "Apple",
+    "model": "AirPods Pro",
+    "price_usd": 249,
+    "price_inr": 18549,
+    "specifications": {
+      "noiseCancellation": true,
+      "battery": "Up to 4.5 hours (with ANC)"
+    }
+  }
+]
