@@ -100,6 +100,31 @@ app.delete("/products/:id", (req, res) => {
   }
 });
 
+// GET all unique brands
+app.get("/products/brands", (req, res) => {
+  const products = readProductsFromFile();
+  // Extract unique brands
+  const brands = [...new Set(products.map(product => product.brand))];
+  res.json(brands);
+});
+
+// GET products by brand
+app.get("/products/brand/:brand", (req, res) => {
+  const brand = req.params.brand.toLowerCase();
+  const products = readProductsFromFile();
+  const filteredProducts = products.filter(product => product.brand.toLowerCase() === brand);
+  res.json(filteredProducts);
+});
+
+// GET products by price range
+app.get("/products/price", (req, res) => {
+  const minPrice = parseFloat(req.query.min) || 0;
+  const maxPrice = parseFloat(req.query.max) || Number.MAX_SAFE_INTEGER;
+  const products = readProductsFromFile();
+  const filteredProducts = products.filter(product => product.price >= minPrice && product.price <= maxPrice);
+  res.json(filteredProducts);
+});
+
 // Start the server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

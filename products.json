@@ -19,9 +19,9 @@
     "id": 5,
     "name": "Gaming Console",
     "brand": "Sony",
-    "model": "PlayStation 5",
+    "model": "PlayStation 6",
     "image": "https://www.pngitem.com/pimgs/m/568-5680053_prod-placeholder-vector-product-icon-png-transparent-png.png",
-    "price_usd": 499,
+    "price_usd": "498",
     "price_inr": 37023,
     "specifications": {
       "processor": "Custom AMD Zen 2-based CPU",
@@ -129,6 +129,257 @@
     "specifications": {
       "noiseCancellation": true,
       "battery": "Up to 4.5 hours (with ANC)"
+    }
+  },
+  {
+    "id": 13,
+    "name": "iPhone 13",
+    "brand": "Apple",
+    "model": "iPhone 13 Pro",
+    "image": "https://www.example.com/iphone13pro.jpg",
+    "price_usd": 999,
+    "price_inr": 73986,
+    "specifications": {
+      "display": "6.1-inch Super Retina XDR display",
+      "processor": "A15 Bionic chip",
+      "memory": "128GB/256GB/512GB storage",
+      "camera": "12MP Ultra Wide and Wide cameras",
+      "battery": "Up to 22 hours"
+    }
+  },
+  {
+    "id": 14,
+    "name": "MacBook Air",
+    "brand": "Apple",
+    "model": "MacBook Air M1",
+    "image": "https://www.example.com/macbookair.jpg",
+    "price_usd": 999,
+    "price_inr": 73986,
+    "specifications": {
+      "display": "13.3-inch Retina display",
+      "processor": "Apple M1 chip",
+      "memory": "8GB/16GB unified memory",
+      "storage": "256GB/512GB/1TB/2TB SSD",
+      "battery": "Up to 15 hours"
+    }
+  },
+  {
+    "id": 15,
+    "name": "iPad Air",
+    "brand": "Apple",
+    "model": "iPad Air 4th Generation",
+    "image": "https://www.example.com/ipadair.jpg",
+    "price_usd": 599,
+    "price_inr": 44397,
+    "specifications": {
+      "display": "10.9-inch Liquid Retina display",
+      "processor": "A14 Bionic chip",
+      "memory": "64GB/256GB storage",
+      "camera": "12MP Wide camera",
+      "battery": "Up to 10 hours"
+    }
+  },
+  {
+    "id": 16,
+    "name": "iPad Pro",
+    "brand": "Apple",
+    "model": "iPad Pro-1",
+    "image": "https://www.example.com/ipadpro.jpg",
+    "price_usd": 799,
+    "price_inr": 59272,
+    "specifications": {
+      "display": "11-inch Liquid Retina Display",
+      "processor": "Apple M1 chip",
+      "memory": "8GB RAM, 128GB/256GB/512GB/1TB storage",
+      "camera": "12MP Wide camera",
+      "battery": "Up to 10 hours"
+    }
+  },
+  {
+    "id": 17,
+    "name": "Apple Watch",
+    "brand": "Apple",
+    "model": "Apple Watch Series 7",
+    "image": "https://www.example.com/applewatch.jpg",
+    "price_usd": 399,
+    "price_inr": 29586,
+    "specifications": {
+      "display": "Always-On Retina display",
+      "processor": "S7 SiP with 64-bit dual-core processor",
+      "storage": "32GB capacity",
+      "battery": "Up to 18 hours"
+    }
+  },
+  {
+    "id": 18,
+    "name": "MacBook Pro",
+    "brand": "Apple",
+    "model": "MacBook Pro 14-inch",
+    "image": "https://www.example.com/macbookpro.jpg",
+    "price_usd": 1999,
+    "price_inr": 147972,
+    "specifications": {
+      "display": "14.2-inch Liquid Retina XDR display",
+      "processor": "Apple M1 Pro or M1 Max chip",
+      "memory": "16GB/32GB unified memory",
+      "storage": "512GB/1TB/2TB/4TB/8TB SSD",
+      "battery": "Up to 17 hours"
+    }
+  },
+  {
+    "id": 19,
+    "name": "AirPods",
+    "brand": "Apple",
+    "model": "AirPods Pro",
+    "image": "https://www.example.com/airpodspro.jpg",
+    "price_usd": 249,
+    "price_inr": 18411,
+    "specifications": {
+      "design": "In-ear",
+      "active_noise_cancellation": "Yes",
+      "transparency_mode": "Yes",
+      "battery": "Up to 4.5 hours listening time with a single charge"
+    }
+  },
+  {
+    "id": 20,
+    "name": "Apple TV",
+    "brand": "Apple",
+    "model": "Apple TV 4K",
+    "image": "https://www.example.com/appletv.jpg",
+    "price_usd": 179,
+    "price_inr": 13266,
+    "specifications": {
+      "resolution": "Up to 4K HDR with Dolby Vision",
+      "storage": "32GB/64GB",
+      "processor": "A12 Bionic chip",
+      "audio": "Dolby Atmos",
+      "connectivity": "Wi-Fi 6, Bluetooth 5.0"
+    }
+  },
+  {
+    "id": 21,
+    "name": "Samsung Galaxy S21",
+    "brand": "Samsung",
+    "model": "Galaxy S21 Ultra",
+    "image": "https://www.example.com/s21ultra.jpg",
+    "price_usd": 1199,
+    "price_inr": 88835,
+    "specifications": {
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "processor": "Exynos 2100 (Global) / Qualcomm Snapdragon 888 (USA/China)",
+      "memory": "12GB/16GB RAM, 128GB/256GB/512GB storage",
+      "camera": "108MP Wide, 12MP Ultra Wide, 10MP Telephoto, 10MP Periscope Telephoto",
+      "battery": "5000mAh"
+    }
+  },
+  {
+    "id": 22,
+    "name": "Samsung Galaxy Z Fold",
+    "brand": "Samsung",
+    "model": "Galaxy Z Fold 3",
+    "image": "https://www.example.com/zfold3.jpg",
+    "price_usd": 1799,
+    "price_inr": 133221,
+    "specifications": {
+      "display": "Main: 7.6-inch Dynamic AMOLED 2X, Cover: 6.2-inch Dynamic AMOLED 2X",
+      "processor": "Qualcomm Snapdragon 888",
+      "memory": "12GB RAM, 256GB/512GB storage",
+      "camera": "12MP Wide, 12MP Ultra Wide, 12MP Telephoto",
+      "battery": "4400mAh"
+    }
+  },
+  {
+    "id": 23,
+    "name": "Samsung Galaxy Tab",
+    "brand": "Samsung",
+    "model": "Galaxy Tab S7+",
+    "image": "https://www.example.com/tabs7plus.jpg",
+    "price_usd": 849,
+    "price_inr": 62943,
+    "specifications": {
+      "display": "12.4-inch Super AMOLED",
+      "processor": "Qualcomm Snapdragon 865+",
+      "memory": "6GB/8GB RAM, 128GB/256GB storage",
+      "camera": "13MP Wide, 5MP Ultra Wide",
+      "battery": "10,090mAh"
+    }
+  },
+  {
+    "id": 24,
+    "name": "Samsung Galaxy Watch",
+    "brand": "Samsung",
+    "model": "Galaxy Watch 4",
+    "image": "https://www.example.com/galaxywatch4.jpg",
+    "price_usd": 349,
+    "price_inr": 25853,
+    "specifications": {
+      "display": "1.4-inch/1.9-inch Super AMOLED",
+      "processor": "Exynos W920",
+      "memory": "1.5GB RAM, 16GB storage",
+      "battery": "247mAh/361mAh"
+    }
+  },
+  {
+    "id": 25,
+    "name": "Samsung Galaxy Note",
+    "brand": "Samsung",
+    "model": "Galaxy Note 20 Ultra",
+    "image": "https://www.example.com/note20ultra.jpg",
+    "price_usd": 1299,
+    "price_inr": 96187,
+    "specifications": {
+      "display": "6.9-inch Dynamic AMOLED 2X",
+      "processor": "Exynos 990 (Global) / Qualcomm Snapdragon 865+ (USA/China)",
+      "memory": "12GB RAM, 128GB/256GB/512GB storage",
+      "camera": "108MP Wide, 12MP Ultra Wide, 12MP Periscope Telephoto",
+      "battery": "4500mAh"
+    }
+  },
+  {
+    "id": 26,
+    "name": "Samsung Galaxy Buds",
+    "brand": "Samsung",
+    "model": "Galaxy Buds Pro",
+    "image": "https://www.example.com/galaxybudspro.jpg",
+    "price_usd": 199,
+    "price_inr": 14752,
+    "specifications": {
+      "design": "In-ear",
+      "active_noise_cancellation": "Yes",
+      "transparency_mode": "Yes",
+      "battery": "Up to 5 hours listening time with ANC on, 13 hours with charging case"
+    }
+  },
+  {
+    "id": 27,
+    "name": "Samsung Galaxy Book",
+    "brand": "Samsung",
+    "model": "Galaxy Book Pro",
+    "image": "https://www.example.com/galaxybookpro.jpg",
+    "price_usd": 999,
+    "price_inr": 73986,
+    "specifications": {
+      "display": "13.3-inch/15.6-inch Super AMOLED",
+      "processor": "Intel Core i5/i7",
+      "memory": "8GB/16GB RAM, 256GB/512GB storage",
+      "battery": "Up to 20 hours"
+    }
+  },
+  {
+    "id": 28,
+    "name": "Samsung Galaxy A",
+    "brand": "Samsung",
+    "model": "Galaxy A52 5G",
+    "image": "https://www.example.com/a525g.jpg",
+    "price_usd": 499,
+    "price_inr": 36993,
+    "specifications": {
+      "display": "6.5-inch Super AMOLED",
+      "processor": "Qualcomm Snapdragon 750G",
+      "memory": "6GB/8GB RAM, 128GB storage",
+      "camera": "64MP Wide, 12MP Ultra Wide, 5MP Macro, 5MP Depth",
+      "battery": "4500mAh"
     }
   }
 ]
