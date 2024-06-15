@@ -61,7 +61,8 @@ app.post("/products", (req, res) => {
   }
   console.log("newProduct", newProduct);
   console.log("products", products);
-  newProduct.image = "https://www.pngitem.com/pimgs/m/568-5680053_prod-placeholder-vector-product-icon-png-transparent-png.png";
+  newProduct.image =
+    "https://www.pngitem.com/pimgs/m/568-5680053_prod-placeholder-vector-product-icon-png-transparent-png.png";
   products.push(newProduct);
   console.log(products);
   writeProductsToFile(products);
@@ -72,6 +73,8 @@ app.post("/products", (req, res) => {
 app.put("/products/:id", (req, res) => {
   const productId = parseInt(req.params.id);
   const updatedProduct = req.body;
+  updatedProduct.image =
+    "https://www.pngitem.com/pimgs/m/568-5680053_prod-placeholder-vector-product-icon-png-transparent-png.png";
   let products = readProductsFromFile();
   const index = products.findIndex((product) => product.id === productId);
   if (index !== -1) {
