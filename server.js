@@ -7,6 +7,7 @@ const fs = require("fs");
 // Path to the JSON file
 const filePath = "products.json";
 app.use(bodyParser.json());
+app.use(cors());
 
 // Function to read products from the JSON file
 function readProductsFromFile() {
@@ -23,6 +24,12 @@ function readProductsFromFile() {
 function writeProductsToFile(products) {
   fs.writeFileSync(filePath, JSON.stringify(products, null, 2));
 }
+
+// GET status
+app.get("/", (req, res) => {
+  var ok = { status: "ok" };
+  res.json(ok);
+});
 
 // GET all products
 app.get("/products", (req, res) => {
@@ -84,7 +91,7 @@ app.delete("/products/:id", (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
