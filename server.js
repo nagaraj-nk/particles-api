@@ -13,7 +13,6 @@ app.use(cors());
 function readProductsFromFile() {
   try {
     const data = fs.readFileSync(filePath, "utf8");
-    console.log("data", data);
     return JSON.parse(data);
   } catch (error) {
     return [];
@@ -52,9 +51,17 @@ app.get("/products/:id", (req, res) => {
 // POST a new product
 app.post("/products", (req, res) => {
   const newProduct = req.body;
-  console.log("newProduct", newProduct);
   const products = readProductsFromFile();
+  productId = 1;
+  console.log("products.length", products.length);
+  if (products.length > 0) {
+    productId = products[products.length - 1].id + 1;
+    newProduct.id = productId;
+    console.log("newProduct inside", newProduct);
+  }
+  console.log("newProduct", newProduct);
   console.log("products", products);
+  newProduct.image = "https://www.pngitem.com/pimgs/m/568-5680053_prod-placeholder-vector-product-icon-png-transparent-png.png";
   products.push(newProduct);
   console.log(products);
   writeProductsToFile(products);
